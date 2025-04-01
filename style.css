@@ -1,5 +1,9 @@
 body {
-  background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 60vw 1fr;
+    grid-template-rows: 10vh 1fr;
+    grid-template-areas: "head head head"
+    "left center right";
 }
 
 .btn {
@@ -10,4 +14,25 @@ body {
 
 .btn:hover {
   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.left {
+    grid-area: left;
+}
+.right {
+    grid-area: right;
+}
+.center {
+    grid-area: center;
+}
+.head {
+    grid-area: head;
 }
