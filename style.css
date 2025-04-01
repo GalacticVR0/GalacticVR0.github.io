@@ -8,7 +8,6 @@ body {
 
 .btn {
   border-radius: 5px;
-  background-color: black;
   
 }
 
@@ -35,4 +34,14 @@ body {
 }
 .head {
     grid-area: head;
+}
+
+:root {
+    color: black;
+    background-color: white;
+}
+
+#Darkmode {
+    color: white;
+    background-color: grey;
 }
