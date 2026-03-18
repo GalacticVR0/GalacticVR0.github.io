@@ -3,24 +3,30 @@ body {
     grid-template-columns: 1fr 60vw 1fr;
     grid-template-rows: 10vh 1fr;
     grid-template-areas: "head head head"
-    "left center right";
+        "left center right";
     position: relative;
-    
+
     color: var(--text-color);
     background-color: var(--background);
 }
 
 #menu {
     margin-top: 0;
-    
+
+}
+
+#loadpage {
+    text-decoration: none;
 }
 
 .head {
     grid-area: head;
 }
+
 .center {
     grid-area: center;
 }
+
 .right {
     grid-area: right;
 }
@@ -80,6 +86,9 @@ img {
     cursor: pointer;
 }
 
+#contents {
+    margin-bottom: 1px;
+}
 
 #appearance {
     display: flex;
@@ -105,6 +114,7 @@ img {
     --background: white;
     --text-color: black;
 }
+
 .DarkMode {
     --background: rgb(35, 35, 35);
     --text-color: white;

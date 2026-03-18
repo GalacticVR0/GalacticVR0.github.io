@@ -1,0 +1,72 @@
+:root {
+    --background: white;
+    --text-color: black;
+}
+
+.DarkMode {
+    --background: rgb(35, 35, 35);
+    --text-color: white;
+}
+
+#appearance {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+
+.btn {
+    margin: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#appearance {
+    height: 80vh;
+    margin: 40px;
+    margin-left: 50px;
+    position: sticky;
+    top: 0;
+}
+
+#PC {
+    margin: 0;
+}
+
+.head {
+    grid-area: top;
+}
+
+.center {
+    grid-area: center;
+}
+
+.right {
+    grid-area: right;
+}
+
+#menu {
+    margin-left: 50px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 60vw 1fr;
+    grid-template-rows: 10vh 1fr;
+    grid-template-areas: "head head head"
+        "left center right";
+    position: relative;
+
+    color: var(--text-color);
+    background-color: var(--background);
+}
+
+#menu {
+    margin-top: 0;
+
+}
