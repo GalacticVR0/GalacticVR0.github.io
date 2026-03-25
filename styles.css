@@ -17,7 +17,7 @@
 
 
 .btn {
-    margin: 10px;
+    margin: 1%;
     color: blue;
     text-decoration: none;
 }
@@ -28,8 +28,8 @@
 
 #appearance {
     height: 80vh;
-    margin: 40px;
-    margin-left: 50px;
+    margin: 4%;
+    margin-left: 5%;
     position: sticky;
     top: 0;
 }
@@ -51,7 +51,7 @@
 }
 
 #menu {
-    margin-left: 50px;
+    margin-left: 5%;
 }
 
 body {

@@ -32,13 +32,13 @@ body {
 }
 
 #menu {
-    margin-left: 50px;
+    margin-left: 5%;
 }
 
 #appearance {
     height: 80vh;
     margin: 0px;
-    margin-left: 50px;
+    margin-left: 5%;
     position: sticky;
     top: 0;
 }
@@ -72,12 +72,12 @@ img {
     height: 30vh;
     width: auto;
     float: inline-end;
-    margin-left: 10px;
+    margin-left: 1%;
 }
 
 
 .btn {
-    margin: 10px;
+    margin: 1%;
     color: blue;
     text-decoration: none;
 }
@@ -87,7 +87,7 @@ img {
 }
 
 #contents {
-    margin-bottom: 1px;
+    margin-bottom: 0.1%;
 }
 
 #appearance {
