@@ -3,19 +3,6 @@
     --text-color: black;
 }
 
-.DarkMode {
-    --background: rgb(35, 35, 35);
-    --text-color: white;
-}
-
-#appearance {
-    display: flex;
-    flex-direction: column;
-    max-width: fit-content;
-    max-height: fit-content;
-}
-
-
 .btn {
     margin: 1%;
     color: blue;
@@ -24,18 +11,6 @@
 
 .btn:hover {
     cursor: pointer;
-}
-
-#appearance {
-    height: 80vh;
-    margin: 4%;
-    margin-left: 5%;
-    position: sticky;
-    top: 0;
-}
-
-#PC {
-    margin: 0;
 }
 
 .head {

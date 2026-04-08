@@ -1,13 +1,32 @@
 body {
-    display: grid;
-    grid-template-columns: 1fr 60vw 1fr;
-    grid-template-rows: 10vh 1fr;
-    grid-template-areas: "head head head"
-        "left center right";
+    display: block;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     position: relative;
 
     color: var(--text-color);
     background-color: var(--background);
+    background-image: url("assets/B17.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+
+#b17-section {
+    min-height: 100vh;
+    position: relative;
+}
+
+#boats-section {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/Boats.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
 
 #menu {
@@ -27,6 +46,14 @@ body {
     grid-area: center;
 }
 
+img.center {
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+}
+
 .right {
     grid-area: right;
 }
@@ -36,11 +63,14 @@ body {
 }
 
 #appearance {
-    height: 80vh;
-    margin: 0px;
-    margin-left: 5%;
-    position: sticky;
-    top: 0;
+    position: absolute;
+    top: 1.5rem;
+    right: 5%;
+    width: max-content;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
 }
 
 #title {
