@@ -37,6 +37,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu {
@@ -88,8 +91,9 @@ img.center {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
 }
 
-#title {
+#Title {
     border-bottom: 4px solid;
+    font-size: 5rem;
 }
 
 .info {
@@ -142,14 +146,6 @@ img {
     max-height: fit-content;
 }
 
-#TableofContents {
-    display: flex;
-    flex-direction: column;
-    height: 80vh;
-    margin: 0;
-    position: sticky;
-    top: 0;
-}
 
 #refrences {
     border-bottom: 3px solid;
